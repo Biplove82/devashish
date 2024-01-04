@@ -1,17 +1,25 @@
 {
-  "name": "devashish_pandey",
+  "name": "devashish",
   "version": "1.0.0",
-  "description": "Free code camp",
+  "description": "devashish proj",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src index.js"
   },
-  "author": "Devashish Pandey",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biplove82/devashish.git"
+  },
+  "author": "Devashish",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Biplove82/devashish/issues"
+  },
+  "homepage": "https://github.com/Biplove82/devashish#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
-    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
