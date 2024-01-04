@@ -5,7 +5,7 @@ const JWT_SECRET = "your-secret-key";
 
 const register = async function (req, res) {
   try {
-    const { name, email, password, confirmPassword } = req.body;
+    const { name, email, password, confirmPassword} = req.body;
     const existingUser = await userModells.findOne({ email: email });
     if (existingUser) {
       return res.status(401).json({ message: "Username already exists" });
@@ -44,5 +44,7 @@ const login = async function (req, res) {
     res.status(500).json({ error: "Invalid User" + error });
   }
 };
+
+
 
 module.exports = { register, login };
