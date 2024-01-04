@@ -137,8 +137,8 @@ dist
 .webpack/
 
 # Dependency directories
-node_modules/
-jspm_packages/
+node_modules
+
 
 
 # Optional stylelint cache
